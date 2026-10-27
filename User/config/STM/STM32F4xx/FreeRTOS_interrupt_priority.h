@@ -1,0 +1,30 @@
+
+
+#ifndef FREERTOS_INTERRUPT_PRIORITY_H
+#define FREERTOS_INTERRUPT_PRIORITY_H
+#include "FreeRTOSConfig.h"
+#include "gd32f4xx_misc.h"
+
+#define CURRENT_NVIC_GROUP NVIC_PRIGROUP_PRE4_SUB0
+
+#define KERNEL_INTERRUPT_PRIORITY configLIBRARY_LOWEST_INTERRUPT_PRIORITY
+
+#define MAX_SYSCALL_INTERRUPT_PRIORITY configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY
+
+
+#define USART0_FUNC_CLI             15
+
+
+
+#define 
+
+
+#endif
+
+
+
+
+
+
+
+
